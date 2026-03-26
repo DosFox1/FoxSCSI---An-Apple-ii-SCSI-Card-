@@ -1,0 +1,69 @@
+Partlist
+
+Exported from Apple ii SCSI VDEV2.sch at 25/Mar/26 09:02
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device                     Package               Library           Sheet
+
+C1       330p 100V      330P_TH_CAP                 CAP_5.08MM_PITCH      Capacitors TH     1
+C2       330p 100V      330P_TH_CAP                 CAP_5.08MM_PITCH      Capacitors TH     1
+C3       330p 100V      330P_TH_CAP                 CAP_5.08MM_PITCH      Capacitors TH     1
+C4       330p 100V      330P_TH_CAP                 CAP_5.08MM_PITCH      Capacitors TH     1
+C5       330p 50V       330P_TH_CAP                CAP_5.08MM_PITCH      Capacitors TH     1
+C6       1u 50V         1U_TH_ELEC_CAPHORIZONTAL   CAP_ELECTROLYTIC_FLAT Capacitors TH     1
+C7       100U 50v       100U_TH_ELEC_CAPHORIZONTAL CAP_ELECTROLYTIC_FLAT Capacitors TH     1
+C8       10U 50v        10U_TH_ELEC_CAPHORIZONTAL  CAP_ELECTROLYTIC_FLAT Capacitors TH     1
+C9       10U 50v        10U_TH_ELEC_CAPHORIZONTAL  CAP_ELECTROLYTIC_FLAT Capacitors TH     1
+C10      100n 50V       100N_TH_CAP                CAP_5.08MM_PITCH      Capacitors TH     1
+C11      100n 50V       100N_TH_CAP                CAP_5.08MM_PITCH      Capacitors TH     1
+C12      100n 50V       100N_TH_CAP                CAP_5.08MM_PITCH      Capacitors TH     1
+C13      100n 50V       100N_TH_CAP                CAP_5.08MM_PITCH      Capacitors TH     1
+C14      100n 50V       100N_TH_CAP                CAP_5.08MM_PITCH      Capacitors TH     1
+C15      100n 50V       100N_TH_CAP                CAP_5.08MM_PITCH      Capacitors TH     1
+C16      100n 50V       100N_TH_CAP                CAP_5.08MM_PITCH      Capacitors TH     1
+C17      100n 50V       100N_TH_CAP                CAP_5.08MM_PITCH      Capacitors TH     1
+C18      330p 100V      33P_TH_CAP                 CAP_5.08MM_PITCH      Capacitors TH     1
+CN1      2x13 header    MA13-2                     MA13-2                con-lstb          1
+D1       1N4004         1N4004                     DO41-10               adafruit          1
+D2       1N4004         1N4004                     DO41-10               adafruit          1
+R1       1k             1K_TH_RESISTOR             RESISTORTHRUHOLE      Resistors TH      1
+R2       200R           200R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R3       2k2            2K2_TH_RESISTOR            RESISTORTHRUHOLE      Resistors TH      1
+R4       200R           200R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R5       200R           200R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R6       200R           200R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R7       2k2            2K2_TH_RESISTOR            RESISTORTHRUHOLE      Resistors TH      1
+R8       2k2            2K2_TH_RESISTOR            RESISTORTHRUHOLE      Resistors TH      1
+R9       200R           200R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R10      200R           200R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R11      200R           200R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R12      200R           200R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R13      200R           200R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R14      120R           120R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+R15      150R           150R_TH_RESISTOR           RESISTORTHRUHOLE      Resistors TH      1
+RP1      3K3            RN09                       RN-10                 resistor-net      1
+RP2      3K3            RN09                       RN-10                 resistor-net      1
+RP3      100R           RN09                       RN-10                 resistor-net      1
+RP4      100R           RN09                       RN-10                 resistor-net      1
+SW1      8xDip Switch   DIP-08-PTH                 DIPSWITCH-08          SparkFun-Switches 1
+U1C      74LS240N       74LS240N                   DIL20                 74xx-us           1
+U1E      74LS14N        74LS14N                    DIL14                 74xx-us           1
+U2A      74LS133N       74LS133N                   DIL16                 74xx-us           1
+U2B      74LS08N        74LS08N                    DIL14                 74xx-us           1
+U2D      74LS138N       74LS138N                   DIL16                 74xx-us           1
+U2E      74LS09N        74LS09N                    DIL14                 74xx-us           1
+U3B      27C128P        27C128P                    DIL28-6               microchip         1
+U3C      GAL16V8        ATF16V8BP3                 DIL20                 atmel             1
+U3D      GAL16V8        ATF16V8BP3                 DIL20                 atmel             1
+U3E      74LS273N       74273N                     DIL20                 74xx-eu           1
+U4E      74LS245N       74LS245N                   DIL20                 74xx-us           1
+U5A      NCR5380        NCR5380                    DIP40                 ICs               1
+U5C      6264A          6264A                      DIL28-6               memory-hitachi    1
+U5E      74LS14N        74LS14N                    DIL14                 74xx-us           1
+U6C      74LS32N        74LS32N                    DIL14                 74xx-us           1
+U6D      74LS74N        74LS74N                    DIL14                 74xx-us           1
+U6E      74LS74N        74LS74N                    DIL14                 74xx-us           1
+VREG1    LM317T         LM317TL                    317TL                 v-reg             1

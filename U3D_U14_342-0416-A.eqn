@@ -1,0 +1,41 @@
+GAL16V8
+SCSI_U3C 
+
+1 2 3 4 5 6 7 8 9 GND
+11 12 13 14 15 16 17 18 19 VCC
+
+
+/12.T = 1 * /2 * 5 +
+       /3
+12.E = VCC
+
+/13.T = 2 * 4 * /13 +
+       1 * 4 * /13 +
+       /3
+13.E = VCC
+
+/14.T = /2 * /5 * /8 * /13
+14.E = VCC
+
+/15.T = /9
+15.E = /11
+
+/16.T = 6 * /7 +
+       /6 * 7 +
+       2 +
+       5 +
+       13
+16.E = VCC
+
+/17.T = /2 * /5 * /6 * /7 * /13 +
+       /2 * /5 * 6 * 7 * /13
+17.E = VCC
+
+/19.T = /18 +
+       /3 +
+       1 * /2 * /13
+19.E = VCC
+
+DESCRIPTION
+Rewrite of the SCSI equations HKZ found. Rewriting them for GALasm. 
+Guessing "&" means AND (*), we'll see what happens.
