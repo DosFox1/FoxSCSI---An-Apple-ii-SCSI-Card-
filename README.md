@@ -14,7 +14,7 @@ This is a recreation of the original Apple SCSI Rev C Card for the Apple II.
 The equations for the SCSI card were found, converted to GALs, and tested with an original Rev C card.
 
 Additionally, the schematics and ROM for the Rev C card are available online (added in this repository for completeness).
-This board is two layer to reduce costs (five boards, finished in ENIG should be about £38 or £6 per board), and is fully through hole.
+This board is two layer to reduce costs (five boards, finished in ENIG should be about £30 or £6 per board), and is fully through hole.
 A 2.85v active termination voltage regulator is added but is not required. 
 
 HKZ is working on an SMD variant of the SCSI card:
